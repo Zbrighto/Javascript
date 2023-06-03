@@ -16,3 +16,14 @@ function student(name, age, school, city, ) {
 }
 
 student('john ',  20 , 'federal college', 'abuja ')
+
+// let attempts = 10;
+// attempts--;
+// attempts++;
+// console.log(attempts);
+
+// let x = 10;
+// console.log(x--);
+
+// let x = 10;
+// console.log(--x);

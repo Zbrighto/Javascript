@@ -7,6 +7,23 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Contact Us</h1>
+
+	<form name="good" method="post">
+		<label for="name" >Name:</label>
+		<input type="text" id="name" name="name"><br>
+
+		<label for="email" >Email:</label>
+		<input type="email" id="email" name="email"><br>
+
+		<label for="subject" >Subject:</label>
+		<input type="text" id="subject" name="subject"><br>
+
+		<label for="message" >Message:</label><br>
+		<textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+	
+		<input onclick=" submitForm()" type="button" value="Submit">
+	</form>
     <script src="js/function2.js"></script>
 </body>
 </html>
